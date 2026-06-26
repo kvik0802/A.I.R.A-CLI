@@ -1,4 +1,5 @@
 <p align="center">
+  <img src="assets/aira-logo.png" alt="AIRA" width="48">
   <pre>
      █████╗    ██╗   ██████╗     █████╗ 
     ██╔══██╗   ██║   ██╔══██╗   ██╔══██╗
@@ -518,18 +519,17 @@ Apache 2.0 provides:
 - **Explicit patent grant** from contributors
 - Liability and warranty disclaimers
 
-Copyright **2026 NSS Enterprises / Vicky**.
+Copyright **2026**.
 
 ---
 
 ## Author
 
-**NSS Enterprises / Vicky**
+**NAINI VIVEKANAND**
 
 Built with Python, Rich, prompt_toolkit, and multi-provider AI APIs.
 
 <p align="center">
-  <img src="assets/aira-logo.png" alt="AIRA" width="48">
   <br>
   <strong>A.I.R.A CLI</strong> — Think. Build. Execute.
 </p>
