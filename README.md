@@ -94,14 +94,14 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    A[Launch `aira`] --> B{First run?}
+    A[Launch "aira"] --> B{First run?}
     B -->|Yes| C[Setup Wizard\nProvider + API Key + Model]
     B -->|No| D[Load ~/.aira/config.json]
     C --> D
     D --> E[Interactive Prompt\nLive CPU/RAM/Disk overlay]
     E --> F{Input type?}
-    F -->|/command| G[handle_command()]
-    F -->|free text| H[AI Chat + Memory Search]
+    F -->|/command| G[handle_command]
+    F -->|text| H[AI Chat + Memory Search]
     H --> I[parse_ai_directives]
     I --> J[Execute tools / save memory]
     G --> E
