@@ -1,0 +1,8 @@
+{
+  "name": "chrome-devtools",
+  "version": "0.21.0",
+  "description": "Chrome DevTools automation - page inspection, screenshots, network interception, performance tracing via CDP.",
+  "author": {"name": "Chrome DevTools Team"},
+  "license": "Apache-2.0",
+  "keywords": ["chrome", "devtools", "puppeteer", "debugging", "automation"]
+}

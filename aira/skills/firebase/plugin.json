@@ -1,0 +1,6 @@
+{
+  "name": "firebase",
+  "version": "1.0.0",
+  "description": "Firebase CLI operations - projects, hosting, functions, Firestore, auth.",
+  "license": "Apache-2.0"
+}

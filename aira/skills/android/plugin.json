@@ -1,0 +1,8 @@
+{
+  "name": "android",
+  "version": "1.0.0",
+  "description": "Android development - create projects, manage SDK, build, deploy, and diagnose.",
+  "author": {"name": "Android developer tools team"},
+  "license": "Apache-2.0",
+  "keywords": ["android", "mobile", "sdk", "gradle", "adb"]
+}

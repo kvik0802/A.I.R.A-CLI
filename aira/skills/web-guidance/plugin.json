@@ -1,0 +1,7 @@
+{
+  "name": "web-guidance",
+  "version": "1.0.4",
+  "description": "Modern web development best practices - design systems, accessibility, performance, Vite, Next.js, Tailwind.",
+  "author": {"name": "Google"},
+  "license": "Apache-2.0"
+}

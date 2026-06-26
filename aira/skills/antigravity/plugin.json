@@ -1,0 +1,6 @@
+{
+  "name": "antigravity",
+  "version": "1.0.0",
+  "description": "Core framework SDK - artifact creation, planning, file system operations, background tasks, permissions.",
+  "license": "MIT"
+}
