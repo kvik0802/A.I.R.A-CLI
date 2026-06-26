@@ -93,20 +93,37 @@ flowchart TB
 ## Session Flow
 
 ```mermaid
-flowchart LR
-    A[Launch "aira"] --> B{First run?}
-    B -->|Yes| C[Setup Wizard\nProvider + API Key + Model]
-    B -->|No| D[Load ~/.aira/config.json]
+flowchart TD
+    A([Launch AIRA])
+    B{First Run?}
+    C[Setup Wizard<br/>Provider • API Key • Model]
+    D[Load Configuration]
+    E[Interactive Terminal<br/>Live System Overlay]
+    F{User Input}
+    G[Execute Command]
+    H[AI Chat]
+    I[Parse AI Directives]
+    J[Execute Tools<br/>Memory Operations]
+    K([Exit])
+    L[Save Session<br/>Generate Summary]
+
+    A --> B
+    B -->|Yes| C
+    B -->|No| D
     C --> D
-    D --> E[Interactive Prompt\nLive CPU/RAM/Disk overlay]
-    E --> F{Input type?}
-    F -->|/command| G[handle_command]
-    F -->|text| H[AI Chat + Memory Search]
-    H --> I[parse_ai_directives]
-    I --> J[Execute tools / save memory]
+    D --> E
+    E --> F
+
+    F -->|Command| G
     G --> E
+
+    F -->|Chat| H
+    H --> I
+    I --> J
     J --> E
-    F -->|/exit| K[Session summary + save]
+
+    F -->|Exit| K
+    K --> L
 ```
 
 ---
